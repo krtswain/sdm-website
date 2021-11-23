@@ -353,7 +353,7 @@ h6 {
 }
 
 .sf-arrows {
-    content: "\f107";
+    content: "";
     position: absolute;
     right: 15px;
     font-family: FontAwesome;
@@ -1556,10 +1556,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #ddd;
 }
 
-.department-header {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    margin: 0 0 20px 0;
-    padding: 0;
-    text-transform: uppercase;
+
+/**
+MBA Page css
+*/
+
+#header-image {
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
