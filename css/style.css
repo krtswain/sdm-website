@@ -13,6 +13,9 @@ a {
     transition: 0.5s;
 }
 
+.about-department{
+    text-align: center;
+}
 a:hover,
 a:active,
 a:focus {
