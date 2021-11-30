@@ -15,6 +15,7 @@ a {
 
 .about-department {
     text-align: center;
+    font-weight:bold;
 }
 
 a:hover,
@@ -41,7 +42,6 @@ h6 {
     margin: 0 0 20px 0;
     padding: 0;
 }
-
 
 /* Back to top button */
 
