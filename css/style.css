@@ -13,13 +13,15 @@ a {
     transition: 0.5s;
 }
 
-.about-department{
+.about-department {
     text-align: center;
+    font-weight:bold;
 }
+
 a:hover,
 a:active,
 a:focus {
-    color: #18d36e;
+    color: #a22c2a;
     outline: none;
     text-decoration: none;
 }
@@ -40,7 +42,6 @@ h6 {
     margin: 0 0 20px 0;
     padding: 0;
 }
-
 
 /* Back to top button */
 
@@ -827,7 +828,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     color: #fff;
 }
 
-#call-to-action .cta-btn {
+.cta-btn {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     font-weight: 500;
@@ -838,12 +839,12 @@ body.mobile-nav-active #mobile-nav-toggle {
     border-radius: 25px;
     transition: 0.5s;
     margin-top: 10px;
-    border: 2px solid #fff;
-    color: #fff;
+    border: 2px solid #000;
+    color: #000;
 }
 
-#call-to-action .cta-btn:hover {
-    background: #a22c2a;
+.cta-btn:hover {
+    background: #fff;
     border: 2px solid #a22c2a;
 }
 
@@ -1392,7 +1393,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-    background: #13a456;
+    background: #a22c2a;
 }
 
 
@@ -1545,7 +1546,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-    background: #13a456;
+    background: #a22c2a;
 }
 
 #footer .copyright {
